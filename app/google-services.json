@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "582374560540",
+    "project_id": "food-talk-e7599",
+    "storage_bucket": "food-talk-e7599.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:582374560540:android:79b518a4a1edd637d820d9",
+        "android_client_info": {
+          "package_name": "com.example.foodtalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "582374560540-nvoqefnpf0tfjj7uerqcusqq8se14jhr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.foodtalk",
+            "certificate_hash": "527f2eb86b315c0c56d60f12e78a0fcafbee67e2"
+          }
+        },
+        {
+          "client_id": "582374560540-4nu4bjk7j2t2k7qf170c1e4emsmi6tbr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSVv2YnfFT8RhNsudN544QP35qpmFynk4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "582374560540-4nu4bjk7j2t2k7qf170c1e4emsmi6tbr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
