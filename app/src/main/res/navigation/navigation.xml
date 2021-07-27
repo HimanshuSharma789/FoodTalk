@@ -15,4 +15,10 @@
         android:name="com.example.foodtalk.NewPostActivity"
         android:label="NewPostActivity"
         tools:layout="@layout/activity_new_post"/>
+    <activity
+        android:id="@+id/userActivity"
+        android:name="com.example.foodtalk.UserActivity"
+        android:label="UserActivity"
+        tools:layout="@layout/activity_user"/>
+
 </navigation>

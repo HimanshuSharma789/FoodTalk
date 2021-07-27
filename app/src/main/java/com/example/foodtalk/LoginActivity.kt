@@ -1,5 +1,6 @@
 package com.example.foodtalk
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -41,9 +42,9 @@ class LoginActivity : AppCompatActivity() {
         val response = result.idpResponse
         if (result.resultCode == RESULT_OK) {
             // Successfully signed in
-            val user = Firebase.auth.currentUser
-            Log.v("login", user?.email.toString())
-            Log.v("login", user.toString())
+            // val user = Firebase.auth.currentUser
+            startActivity(Intent(this, MainActivity::class.java))
+            finishAffinity()
             // ...
         } else {
             // Sign in failed. If response is null the user canceled the

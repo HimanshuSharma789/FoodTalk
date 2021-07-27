@@ -18,7 +18,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FoodTalk">
-        <activity android:name=".NewPostActivity"></activity>
+        <activity android:name=".UserActivity"></activity>
+        <activity android:name=".NewPostActivity" />
         <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
